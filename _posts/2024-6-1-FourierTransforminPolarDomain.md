@@ -1077,8 +1077,11 @@ Note: I will soon complete the matrix version of this guy, I am still working on
 
 1: (Qing Wang, Olaf Ronneberger, Hans Burkhardt) *Fourier Analysis in Polar and Spherical Coordinates*: [link](https://lmb.informatik.uni-freiburg.de/papers/download/wa_report01_08.pdf)
 - Note: This is the main reference.
+
 2: (Joella Rae Deal) *Basics of Bessel Functions*: [link](https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1745&context=honorstheses)
+
 3: (Russell Herman) *Introduction to Partial Differential Equations (Herman)* [link](https://math.libretexts.org/Bookshelves/Differential_Equations/Introduction_to_Partial_Differential_Equations_(Herman))
 - Note: chapter 4 and chaper 5 are the main focus
+
 4: (G. N. Watson) *A Treatise On The Theory of Bessel Functions*
 
