@@ -6,6 +6,8 @@ tags: [Fourier, Bessel, Analysis]     # TAG names should always be lowercase
 math: true
 ---
 
+![/pics/BesselBasis/BesselBasis.png](/pics/BesselBasis/BesselBasis.png)
+
 ## Preface
 
 I started on this topic around 4 days ago, since some of my research algorithms requires Fourier transforming some signals defined over a 2D polar system. I thought this is a simple problem with some change of variables, but it turns out to be a massive rabbit hole with many concepts beyond my knowledge base. 
@@ -390,6 +392,8 @@ $A$ and $B$ are just some constant quantities.
 
 #### 3.1.1 Bessel Function of the First Kind
 
+![/pics/BesselBasis/BesselFirstKind.png](/pics/BesselBasis/BesselFirstKind.png)
+
 The **Frobenius Method** says that, for any differential equations of shape:
 
 $$y'' +\frac{p(x)}{x}y' + \frac{q(x)}{x^2}y =0$$
@@ -530,6 +534,8 @@ $$ c_1 \cdot 0 + c_2 \cdot 0 = 0 $$
 
 Therefore, linear combinations of solutions to the same equation is still a solution
 #### 3.1.3 Bessel Function of the Second Kind
+
+![/pics/BesselBasis/BesselSecondKind.png](/pics/BesselBasis/BesselSecondKind.png)
 
 The need for the Bessel Function of Second Kind raised from the the following concerns.
 
@@ -946,11 +952,11 @@ This is called the **Fourier Bessel Series** of a radial function at degree $k_{
 
 There is also the version of basis for **Neumann Boundary Condition**, but we will not discuss that in here to save some space.
 
-![[Screenshot from 2024-06-01 16-21-27.png]]
-
 ## 4: The Fourier Bessel Transform
 
 ### 4.1: Complete Basis Structure
+
+![/pics/BesselBasis/BesselBasis.png](/pics/BesselBasis/BesselBasis.png)
 
 The basis function for the polar Fourier transform is composed of the radial and the angular parts.
 
