@@ -8,11 +8,10 @@ math: true
 
 ## Preface
 
-I started on this topic around 4 days ago, since some of my research algorithms requires Fourier transforming some signals defined over a 2D polar system. I thought this is a simple problem with some change of variables, but it turns out to be a massive rabbit hole with many concepts beyond my knowledge base.
+I started on this topic around 4 days ago, since some of my research algorithms requires Fourier transforming some signals defined over a 2D polar system. I thought this is a simple problem with some change of variables, but it turns out to be a massive rabbit hole with many concepts beyond my knowledge base. 
 
 Therefore, I documented my entire research process and explained in as much detail as necessary to understand the Fourier Bessel Transformation. Trust me, it is nontrivial but it is not that hard.
-
-In fact, Fourier Bessel Transformation is really closely related to the buzz word of "Spherical Harmonics". It essentially defined a "Disk Harmonics" following almost the same principles.
+Fourier Bessel Transformation is really closely related to the buzz word of "Spherical Harmonics". It essentially defined a "Disk Harmonics" following almost the same principles.
 
 To best understanding this page, you should be farmiliar with at minimum:
 
@@ -75,7 +74,11 @@ $$\begin{align}
 - $F(\omega)$ tells you how much of the function is composed of this frequency. Its the $W$ we are looking for.
 - $\mathcal{F}$ is the fourier function operator.
 - $-$ the negative sign is just applied by convention. All Fourier transforms of real valued functions are symmetric w.r.t origin in the frequency domain, known as **Hermitian symmetry**.
-- $\frac{1}{2\pi}$ is the normalization factor. It came from the dirac delta function $\int _{-\infty} ^\infty e^{i\omega(x-x_{0})} \, d\omega = 2\pi \delta(x-x_{0})$ during the proof of the inverse transform
+- $\frac{1}{2\pi}$ is the normalization factor. It came from the dirac delta function 
+
+$$\int _{-\infty} ^\infty e^{i\omega(x-x_{0})} \, d\omega = 2\pi \delta(x-x_{0})$$
+
+during the proof of the inverse transform
 
 Fourier transform is a function operator, in which it takes in a function that is **Absolutely Lebesgue Integrable** (which means it has an finite Lebesgue integral (or intuitively speaking have a finite "area under curve" over its domain)):
 
@@ -283,11 +286,9 @@ $$\nabla ^2_{r} = \frac{1}{r} \frac{\partial}{\partial r} \left( r \frac{\partia
 
 This turns our objective equation into "Helmholtz Equation in Polar coordinates":
 
-$$\Phi (\varphi)\nabla^2_{r}R(r)+ \frac{R(r)}{r^2} \nabla^2_{\varphi}
-\Phi(\varphi)  = - k_{r} ^2 R(r)\Phi(\varphi) $$
+$$\Phi (\varphi)\nabla^2_{r}R(r)+ \frac{R(r)}{r^2} \nabla^2_{\varphi} \Phi(\varphi)  = - k_{r} ^2 R(r)\Phi(\varphi) $$
 
-
-note: $$|\mathbf{k}|$$ is sames as $$\lvert k_{r} \rvert$$ under polar coordinates
+note: $|\mathbf{k}|$ is sames as $\lvert k_{r} \rvert$ under polar coordinates
 
 Rewrite, we have:
 
